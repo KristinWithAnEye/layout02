@@ -1,0 +1,36 @@
+/* no flex, no grids, just floats */
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    width: 100%;
+}
+
+header, footer, section {
+    background: rgb(217, 217, 217);
+    border: 2px solid rgb(196, 196, 196);
+}
+
+footer {
+    clear: left;
+}
+
+.top {
+    height: 200px;
+    width: 100%;
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+}
+
+.left, .right {
+    float: left;
+    height: 300px;
+}
